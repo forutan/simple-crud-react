@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-nav {
+  background-color: #fff;
+  width: 100%;
+  color: #000;
+  font-size: 1.5em;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0px 2px 15px black;
+}
+
+.main-nav-logo {
+  float: left;
+  margin: 5px 10px;
+  padding: 7px;
+  width: auto;
+  text-transform: uppercase;
+  border-right: 3px #fff solid;
+}
+.menu li {
+  float: right;
+  margin: 0px 10px;
+  list-style-type: none;
+
+  padding: 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  cursor: pointer;
+  color: blue;
+}
+.clear {
+  clear: both;
+}
+
+@media only screen and (min-width: 512px) {
+  .main-nav {
+    position: sticky;
+  }
+}

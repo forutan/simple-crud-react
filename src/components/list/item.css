@@ -1,0 +1,71 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+* {
+  box-sizing: border-box;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  word-break: break-all;
+  padding: 5pt 16pt;
+  margin-top: 7pt;
+  display: block;
+}
+
+.profile {
+  float: left;
+  height: 60px;
+  margin: 20px 20px;
+  border-radius: 50%;
+}
+.card {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+
+  border: none;
+
+  text-align: center;
+  text-decoration: underline;
+  font-size: 14px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.clear {
+  clear: both;
+}
+
+@media only screen and (min-width: 512px) {
+  .btn {
+    top: calc(50% - 20px);
+    right: 10%;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 8px 16px;
+    border-radius: 3px;
+  }
+
+  .btn:hover {
+    background-color: #f44336;
+    color: white;
+  }
+}
